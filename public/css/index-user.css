@@ -1,0 +1,55 @@
+:root{
+    --p-header: 1% 3%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--p-header);
+}
+.navbar a,.log a{
+    margin: 0 8px;
+}
+section{
+    text-align: center;
+    margin: 1% 3%;
+    border: 1px solid #000;
+}
+form{
+    display: flex;
+}
+.contaner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.contaner-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.label-con,.input-con{
+    display: flex;
+    flex-direction: column;
+}
+.imgcard{
+    border-radius: 50%;
+}
