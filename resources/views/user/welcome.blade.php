@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/index-user.css">
+        <link rel="stylesheet" href="/css-user/index-user.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <title>{{config('app.name')}}</title>
 
@@ -23,10 +24,17 @@
                 </a>
             </div>
 
-            <div class="search">
-                <form action="#" method="post" class="form-1">
-                    @csrf
+            <div class="burger-menu">
+                <h3>
+                    <a href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </h3>
+            </div>
 
+            <div class="search">
+                <form action="#" method="post" class="form-2">
+                    @csrf
                     <input type="search" name="search" id="search">
                     <button type="submit">sub</button>
                 </form>
@@ -58,8 +66,16 @@
                         </div>
                         <div class="text">
                             <p>
-                                lksdgoaigovbaovbowuryfpqiwuhasbhdbaoirhvf <br>
-                                ahfbpqoiwjbipoquwihvbbpqiowdn <br>
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                                when an unknown printer took a galley of type and scrambled it to make a type <br>
+                                specimen book. It has survived not only five centuries, but also the leap into <br>
+                                electronic typesetting, remaining essentially unchanged. It was popularised in <br>
+                                the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, <br>
+                                and more recently with desktop publishing software like Aldus PageMaker including.
+
+
                             </p>
                         </div>
                         <div class="calltoaction">
@@ -120,7 +136,7 @@
                     </div>
 
                 </div>
-                
+
                 <div class="card-2">
 
 
@@ -166,8 +182,8 @@
                             <input type="text" name="name" id="name" placeholder="name">
                             <input type="email" name="email" id="email" placeholder="example@email.com">
                             <input type="tel" name="phonenumber" id="phonenumber" placeholder="+962796632195">
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
-                            <button type="submit">send</button>
+                            <textarea name="message" id="message" cols="25" rows="10" placeholder="message"></textarea>
+                            <button type="submit" >send</button>
                         </div>
 
                     </div>
